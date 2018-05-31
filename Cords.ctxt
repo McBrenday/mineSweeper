@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Cords
+comment1.params=x\ y
+comment1.target=Cords(int,\ int)
+comment2.params=
+comment2.target=int\ getRow()
+comment3.params=
+comment3.target=int\ getCol()
+numComments=4
