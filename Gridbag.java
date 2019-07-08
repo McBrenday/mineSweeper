@@ -3,32 +3,7 @@ import javax.swing.*;
 import java.awt.event.*;
 import java.util.*;
 import java.io.*;
-// Known Bugs/To DO List:
 
-// BUG: Phantom Mines - PATCHED
-// Sometimes the mine is not where it should be,
-// Making there be a fake mine there, which causes
-// Everything around it to be considered a value
-// Most likely the first mine found, which is causing the bug.
-
-// If there is NOT a zero spot below the tile, it will not recurr.
-// It will also not recurr if the tile hasShown();
-
-// Looks at the mine below the tile clicked causing 
-// Recurssion to not happen sometimes
-
-// Recurssion doesn't always occur when it's a zero tile
-// probably something to do with the clicking mechanisms
-
-//When clicking near the borders, it takes a few clicks
-// or basically is not searching everything properly with
-// the given values
-
-// Add a win condition variable with the amoutn of mines
-// Flagged and if all are correctly flagged and every mine
-// is shown
-
-//Sometimes the all the tiles are shown when clicked, very rare occasion.
 public class Gridbag extends JPanel implements ActionListener
  {
       private GridBagConstraints cst;
